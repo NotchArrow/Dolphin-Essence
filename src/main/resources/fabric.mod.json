@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/mod/Dolphin-Essence",
 		"sources": "https://github.com/NotchArrow/Dolphin-Essence"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/dolphin-essence/icon.png",
 	"environment": "*",
 	"entrypoints": {
