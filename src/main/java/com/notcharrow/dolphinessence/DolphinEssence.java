@@ -14,7 +14,7 @@ public class DolphinEssence implements ModInitializer {
 			for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
 				if (player.hasStatusEffect(StatusEffects.CONDUIT_POWER)) {
 					player.addStatusEffect(
-							new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 1, 0,
+							new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 5, 0,
 									true, true, true));
 				}
 			}
